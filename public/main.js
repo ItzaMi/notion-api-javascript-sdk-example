@@ -6,7 +6,19 @@ const getDataFromBackend = async () => {
 };
 
 const container = document.getElementById("container");
+const openFormButton = document.getElementById("newUserButton");
+const closeFormButton = document.getElementById("closeFormButton");
+const addUserFormContainer = document.getElementById("addUserFormContainer");
 
+openFormButton.addEventListener("click", () => {
+  addUserFormContainer.style.display = "flex";
+});
+
+closeFormButton.addEventListener("click", () => {
+  addUserFormContainer.style.display = "none";
+});
+
+// Add data to HTML
 const addData = async () => {
   const data = await getDataFromBackend();
 

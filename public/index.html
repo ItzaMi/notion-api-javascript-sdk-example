@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Notion API Test</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
     <div id="banner">Notion API Database Test</div>
@@ -13,6 +13,30 @@
       <div id="container"></div>
     </div>
 
-    <script src="./main.js"></script>
+    <div id="addUserFormContainer">
+      <button id="closeFormButton">Close</button>
+      <form method="POST" action="/submit-form" id="addUserForm">
+        <h1 id="formTitle">Add a new user to your database</h1>
+        <input
+          type="text"
+          name="name"
+          placeholder="Insert user name"
+          class="inputField"
+          required
+        />
+        <input
+          type="text"
+          name="role"
+          placeholder="Insert user role"
+          class="inputField"
+          required
+        />
+        <input type="submit" id="submitFormInput" />
+      </form>
+    </div>
+
+    <button id="newUserButton">Add a new user</button>
+
+    <script type="module" src="./main.js"></script>
   </body>
 </html>
