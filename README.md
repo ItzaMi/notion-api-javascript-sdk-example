@@ -16,6 +16,9 @@ If you don't know how to get your key, go to [developers.notion.com](https://dev
 
 If you don't know how to get your Database id, check the **Where can I find my database's ID?** of this [NotionAPI doc](https://developers.notion.com/docs/working-with-databases)
 
+## See it in action!
+https://user-images.githubusercontent.com/30603437/124970496-e2e1f800-e01f-11eb-9055-a93a25d8689a.mp4
+
 ## Here's a screenshot of the result
 ![Notion API Screenshot](https://raw.githubusercontent.com/ItzaMi/notion-api/main/notion-api-screenshot.png)
 
